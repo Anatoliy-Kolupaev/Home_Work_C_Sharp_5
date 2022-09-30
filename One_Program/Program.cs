@@ -175,6 +175,7 @@ void task3()
     int arrLen = ReadData("Введите длину массива: ");
     int[] arr = FillArr(arrLen);
     PrintArr(arr);
+    Console.WriteLine("Мах = "+ Max(arr) + " Min = "+ Min(arr));
     Console.Write("Разницу между максимальным и минимальным элементом массива = " + (Max(arr) - Min(arr)));
     Console.WriteLine();
 }
